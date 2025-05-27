@@ -358,6 +358,71 @@ h1, h2, h3, h4 {
   }
 }
 
+/* Ajustes para telas muito pequenas (300px a 320px) */
+@media (max-width: 320px) {
+  .fixed-radio-items {
+    min-height: 130px; /* deixa barra maior para caber tudo */
+    padding: 12px 10px 12px;
+    flex-wrap: wrap;
+  }
+
+  .titulo {
+    font-size: 14px;
+    white-space: normal;
+    padding: 0 10px;
+  }
+
+  .img-itarantim {
+    max-height: 35px;
+    margin: 4px 0;
+  }
+
+  .img-lopes {
+    max-height: 25px;
+    margin: 4px 0;
+  }
+
+  .calendar-wrapper {
+    max-width: 180px;
+    height: 30px;
+    right: 5px;
+    padding: 3px 6px;
+  }
+
+  .calendar-style input {
+    font-size: 11px !important;
+    padding: 4px 6px !important;
+    height: 28px !important;
+  }
+
+  .card-title,
+  .card-title-meio {
+    font-size: 10px;
+    margin-bottom: 4px;
+  }
+
+  .card-value {
+    font-size: 1.1rem;
+  }
+
+  .totalizador-card,
+  .grafico-card {
+    width: 100% !important;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+  }
+
+  .totalizador-card {
+    min-height: auto;
+    padding: 4px 6px;
+  }
+
+  .card-body-custom {
+    padding: 6px 6px 6px;
+  }
+}
+
 /* Evita overflow horizontal em qualquer tela */
 body, html {
   max-width: 100vw;
